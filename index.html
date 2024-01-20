@@ -19,5 +19,84 @@
         <button class="btn btn-primary">Click me</button>
         <button class="btn btn-success">Success</button>
         <button class="btn btn-warning">Warning</button>
+
+        <!-- accordion -->
+
+        <section>
+            <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                    Do you like Tailwind css?
+                </div>
+                <div class="collapse-content">
+                    <p>yes i do.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                    What types of smart phone are not smart?
+                </div>
+                <div class="collapse-content">
+                    <p>my grandma phone</p>
+                </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                    Where do you live?
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cumque dolor impedit atque obcaecati mollitia velit vel,
+                        molestias optio saepe voluptatum esse consequuntur ea a,
+                        vitae magnam facere. Labore, ipsum maxime?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <span class="loading loading-spinner loading-lg"></span>
+        <!-- My shoes -->
+        <section>
+            <!-- first shoe -->
+            <div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure>
+                        <img src="./images/jacket-1.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- slider or carousel -->
+        <div>
+            <div class="carousel w-full">
+                <div id="item1" class="carousel-item w-full">
+                    <img src="./images/jacket-1.png" class="w-full" />
+                </div>
+                <div id="item2" class="carousel-item w-full">
+                    <img src="./images/jacket-2.png" class="w-full" />
+                </div>
+                <div id="item3" class="carousel-item w-full">
+                    <img src="./images/jacket-3.png" class="w-full" />
+                </div>
+                <div id="item4" class="carousel-item w-full">
+                    <img src="./images/jacket-4.png" class="w-full" />
+                </div>
+            </div>
+            <div class="flex justify-center w-full py-2 gap-2">
+                <a href="#item1" class="btn btn-xs">1</a>
+                <a href="#item2" class="btn btn-xs">2</a>
+                <a href="#item3" class="btn btn-xs">3</a>
+                <a href="#item4" class="btn btn-xs">4</a>
+            </div>
+        </div>
     </body>
 </html>
